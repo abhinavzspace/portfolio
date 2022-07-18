@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "parcel src/index.html",
-    "watch-css": "parcel watch src/css/main.css --dist-dir public/css --public-url /css",
-    "build-css": "parcel build src/css/main.css --dist-dir public/css --public-url /css --no-hmr",
-    "production-css": "NODE_ENV=production parcel build src/css/main.css --dist-dir public/css --public-url /css --no-content-hash --no-source-maps"
+    "dev": "parcel docs/index.html",
+    "watch-css": "parcel watch docs/css/main.css --dist-dir public/css --public-url /css",
+    "build-css": "parcel build docs/css/main.css --dist-dir public/css --public-url /css --no-hmr",
+    "production-css": "NODE_ENV=production parcel build docs/css/main.css --dist-dir public/css --public-url /css --no-content-hash --no-source-maps"
   },
   "author": "",
   "license": "ISC",
