@@ -1,0 +1,23 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "watch-css": "parcel watch src/css/main.css --dist-dir public/css --public-url /css",
+    "build-css": "parcel build src/css/main.css --dist-dir public/css --public-url /css --no-hmr",
+    "production-css": "NODE_ENV=production parcel build src/css/main.css --dist-dir public/css --public-url /css --no-content-hash --no-source-maps"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-image": "^2.0.0-rc.0",
+    "autoprefixer": "^10.4.7",
+    "cssnano": "^5.1.12",
+    "parcel": "^2.0.0-rc.0",
+    "postcss": "^8.4.14",
+    "postcss-import": "^14.1.0",
+    "tailwindcss": "^3.1.6"
+  }
+}
